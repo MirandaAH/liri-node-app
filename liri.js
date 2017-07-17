@@ -71,21 +71,19 @@ function OmdbSearch (){
 function SpotifySearch () {
   let sKeys = keys.spotifyKeys;
   let spotify= new Spotify(sKeys);
-  if (!title){
-    title = "The Sign"
-  }
+  let count;
   logUser();
-
   spotify.search({type: 'track', query: title}, function(err, data) {
-  if (err) {
-    console.log('Error occurred: ' + err);
-  }
-  console.log("Artist: " + data.tracks.items[0].artists[0].name + "\n" +
-            "Song: " + data.tracks.items[0].name + "\n" +
-            "Preview: " + data.tracks.items[0].external_urls.spotify + "\n"+
-            "Album: " + data.tracks.items[0].album.name);
-});
+    if (err) {
+      console.log('Error occurred: ' + err);
+    }
+    console.log("Artist: " + data.tracks.items[0].artists[0].name + "\n" +
+                "Song: " + data.tracks.items[0].name + "\n" +
+                "Preview: " + data.tracks.items[0].external_urls.spotify + "\n"+
+                "Album: " + data.tracks.items[0].album.name);
+  });
 }
+
 
 function WhatSearch() {
   logUser();

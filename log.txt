@@ -1,2 +1,8 @@
 Command: spotify-this-song Title: Walking on Sunshine Date: 1500169850407
 Command: movie-this Title: Hannibal Date: 1500170124090
+Command: spotify-this-song Title: Walking on Sunshine Date: 1500311830293
+Command: movie-this Title: Kicking and Screaming Date: 1500311852517
+Command: do-what-it-says Title: undefined Date: 1500311872263
+Command: spotify-this-song Title: "I Want It That Way"
+ Date: 1500311872313
+Command: my-tweets Title: undefined Date: 1500311879454
