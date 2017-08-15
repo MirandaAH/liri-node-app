@@ -6,3 +6,12 @@ Command: do-what-it-says Title: undefined Date: 1500311872263
 Command: spotify-this-song Title: "I Want It That Way"
  Date: 1500311872313
 Command: my-tweets Title: undefined Date: 1500311879454
+Command: my-tweets Title: undefined Date: 1500421868386
+Command: movie-this Title: Star Wars Date: 1500421894274
+Command: spotify-this-song Title: Walking on Sunshine Date: 1500421984139
+Command: my-tweets Title: undefined Date: 1502833925197
+Command: spotify-this-song Title: Walking Date: 1502833947407
+Command: movie-this Title: The Date: 1502833976567
+Command: my-tweets Title: undefined Date: 1502834005754
+Command: spotify-this-song Title: Walking Date: 1502834035809
+Command: movie-this Title: The Date: 1502834050790
